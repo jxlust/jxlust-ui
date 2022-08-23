@@ -11,7 +11,7 @@ packages:
   - 'packages/*'
 ```
 
-## pk
+## package.json
 
 ```json
   "nano-staged": {
