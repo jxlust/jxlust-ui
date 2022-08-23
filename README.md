@@ -21,3 +21,6 @@ packages:
     "*.{vue,css,less,scss}": "stylelint --fix"
   },
 ```
+
+> 参考:
+> vant-cli: *https://github.com/vant-ui/vant/tree/dev/packages/vant-cli*
