@@ -1,0 +1,75 @@
+{
+  "name": "jxlust-ui-vant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/jxlust-ui-vant.js",
+  "module": "es/index.js",
+  "style": "lib/index.css",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "es"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "dev": "vant-cli dev",
+    "lint": "vant-cli lint",
+    "test": "vant-cli test",
+    "build": "vant-cli build",
+    "build:site": "vant-cli build-site",
+    "release": "vant-cli release --tag next",
+    "release:site": "pnpm build:site && npx gh-pages -d site-dist",
+    "test:watch": "vant-cli test --watch",
+    "test:coverage": "open test/coverage/index.html"
+  },
+  "packageManager": "pnpm@7.1.6",
+  "author": "jxlust",
+  "nano-staged": {
+    "*.md": "prettier --write",
+    "*.{ts,tsx,js,vue,less,scss}": "prettier --write",
+    "*.{ts,tsx,js,vue}": "eslint --fix"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.6",
+    "@vant/cli": "^4.0.0",
+    "husky": "^8.0.1",
+    "nano-staged": "^0.8.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.49.7",
+    "stylelint": "^14.11.0",
+    "typescript": "^4.7.4",
+    "vue": "^3.0.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search",
+        "@types/react",
+        "react",
+        "react-dom"
+      ]
+    }
+  },
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "@vant"
+    ]
+  },
+  "stylelint": {
+    "extends": [
+      "@vant/stylelint-config"
+    ]
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "browserslist": [
+    "Chrome >= 51",
+    "iOS >= 10"
+  ]
+}
