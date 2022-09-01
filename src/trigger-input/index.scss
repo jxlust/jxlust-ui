@@ -1,6 +1,14 @@
-.t {
+@import './var.scss';
+
+:root {
+  --jxl-trigger-input-height: #{$trigger-input-height};
+}
+.jxl-trigger-input {
   outline: none;
   cursor: text;
+  height: var(--jxl-trigger-input-height);
+  width: 100%;
+  border: 1px solid skyblue;
   &[contenteditable='true']:empty:before {
     content: attr(placeholder);
     display: block;

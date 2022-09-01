@@ -2,6 +2,7 @@ export default {
   name: 'jxlust-ui-vant',
   build: {
     css: {
+      base: 'style/base.scss',
       preprocessor: 'sass',
     },
     site: {
@@ -40,6 +41,10 @@ export default {
           {
             path: 'trigger-input',
             title: '触发文本框',
+          },
+          {
+            path: 'style',
+            title: 'Built-in style',
           },
         ],
       },
