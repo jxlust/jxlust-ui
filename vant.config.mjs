@@ -1,17 +1,17 @@
 export default {
-  name: 'jxlust-ui-vant',
+  name: 'jxlust-ui',
   build: {
     css: {
       base: 'style/base.scss',
       preprocessor: 'sass',
     },
     site: {
-      publicPath: '/jxlust-ui-vant/',
+      publicPath: '/jxlust-ui/',
     },
     packageManager: 'pnpm',
   },
   site: {
-    title: 'jxlust-ui-vant',
+    title: 'jxlust-ui',
     logo: 'https://xxxxxx/assets/logo.png',
     nav: [
       {

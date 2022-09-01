@@ -1,6 +1,8 @@
-# jxlust-ui-vant
+# jxlust-ui
 
 vue3 ui component
+
+## jxlust UI 组件库
 
 ## 如果需要管理多项目
 
@@ -23,4 +25,3 @@ packages:
 ```
 
 > 参考:
-> vant-cli: *https://github.com/vant-ui/vant/tree/dev/packages/vant-cli*

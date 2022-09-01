@@ -1,8 +1,12 @@
 {
-  "name": "jxlust-ui-vant",
-  "version": "1.0.0",
+  "name": "jxlust-ui",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:jxlust/JxlVueTpl.git"
+  },
   "description": "",
-  "main": "lib/jxlust-ui-vant.js",
+  "main": "lib/jxlust-ui.js",
   "module": "es/index.js",
   "style": "lib/index.css",
   "typings": "lib/index.d.ts",
