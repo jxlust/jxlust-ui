@@ -7,7 +7,7 @@ export default {
     site: {
       publicPath: '/jxlust-ui-vant/',
     },
-    packageManager: 'pnpm'
+    packageManager: 'pnpm',
   },
   site: {
     title: 'jxlust-ui-vant',
@@ -36,6 +36,10 @@ export default {
           {
             path: 'my-text',
             title: 'text 文本展示',
+          },
+          {
+            path: 'trigger-input',
+            title: '触发文本框',
           },
         ],
       },
