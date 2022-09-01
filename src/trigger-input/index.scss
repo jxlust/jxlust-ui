@@ -1,0 +1,9 @@
+.t {
+  outline: none;
+  cursor: text;
+  &[contenteditable='true']:empty:before {
+    content: attr(placeholder);
+    display: block;
+    color: #ccc;
+  }
+}

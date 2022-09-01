@@ -1,0 +1,75 @@
+@import './var.scss';
+
+:root {
+  // Color Palette
+  --jxl-black: $black;
+  --jxl-white: $white;
+  --jxl-gray-1: $gray-1;
+  --jxl-gray-2: $gray-2;
+  --jxl-gray-3: $gray-3;
+  --jxl-gray-4: $gray-4;
+  --jxl-gray-5: $gray-5;
+  --jxl-gray-6: $gray-6;
+  --jxl-gray-7: $gray-7;
+  --jxl-gray-8: $gray-8;
+  --jxl-red: $red;
+  --jxl-blue: $blue;
+  --jxl-orange: $orange;
+  --jxl-orange-dark: $orange-dark;
+  --jxl-orange-light: $orange-light;
+  --jxl-green: $green;
+
+  // Gradient Colors
+  --jxl-gradient-red: $gradient-red;
+  --jxl-gradient-orange: $gradient-orange;
+
+  // Component Colors
+  --jxl-primary-color: $primary-color;
+  --jxl-success-color: $success-color;
+  --jxl-danger-color: $danger-color;
+  --jxl-warning-color: $warning-color;
+  --jxl-text-color: $text-color;
+  --jxl-text-color-2: $text-color-2;
+  --jxl-text-color-3: $text-color-3;
+  --jxl-text-link-color: $text-link-color;
+  --jxl-active-color: $active-color;
+  --jxl-active-opacity: $active-opacity;
+  --jxl-disabled-opacity: $disabled-opacity;
+  --jxl-background-color: $background-color;
+  --jxl-background-color-light: $background-color-light;
+
+  // Padding
+  --jxl-padding-base: $padding-base;
+  --jxl-padding-xs: $padding-xs;
+  --jxl-padding-sm: $padding-sm;
+  --jxl-padding-md: $padding-md;
+  --jxl-padding-lg: $padding-lg;
+  --jxl-padding-xl: $padding-xl;
+
+  // Font
+  --jxl-font-size-xs: $font-size-xs;
+  --jxl-font-size-sm: $font-size-sm;
+  --jxl-font-size-md: $font-size-md;
+  --jxl-font-size-lg: $font-size-lg;
+  --jxl-font-weight-bold: $font-weight-bold;
+  --jxl-line-height-xs: $line-height-xs;
+  --jxl-line-height-sm: $line-height-sm;
+  --jxl-line-height-md: $line-height-md;
+  --jxl-line-height-lg: $line-height-lg;
+  --jxl-base-font-family: $base-font-family;
+  --jxl-price-integer-font-family: $price-integer-font-family;
+
+  // Animation
+  --jxl-animation-duration-base: $animation-duration-base;
+  --jxl-animation-duration-fast: $animation-duration-fast;
+  --jxl-animation-timing-function-enter: $animation-timing-function-enter;
+  --jxl-animation-timing-function-leave: $animation-timing-function-leave;
+
+  // Border
+  --jxl-border-color: $border-color;
+  --jxl-border-width-base: $border-width-base;
+  --jxl-border-radius-sm: $border-radius-sm;
+  --jxl-border-radius-md: $border-radius-md;
+  --jxl-border-radius-lg: $border-radius-lg;
+  --jxl-border-radius-max: $border-radius-max;
+}

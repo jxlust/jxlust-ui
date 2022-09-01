@@ -1,0 +1,139 @@
+@import './var';
+
+@keyframes jxl-slide-up-enter {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes jxl-slide-up-leave {
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes jxl-slide-down-enter {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes jxl-slide-down-leave {
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes jxl-slide-left-enter {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes jxl-slide-left-leave {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes jxl-slide-right-enter {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes jxl-slide-right-leave {
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes jxl-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes jxl-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes jxl-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.jxl-fade {
+  &-enter-active {
+    animation: var(--jxl-animation-duration-base) jxl-fade-in both
+      var(--jxl-animation-timing-function-enter);
+  }
+
+  &-leave-active {
+    animation: var(--jxl-animation-duration-base) jxl-fade-out both
+      var(--jxl-animation-timing-function-leave);
+  }
+}
+
+.jxl-slide-up {
+  &-enter-active {
+    animation: jxl-slide-up-enter var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-enter);
+  }
+
+  &-leave-active {
+    animation: jxl-slide-up-leave var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-leave);
+  }
+}
+
+.jxl-slide-down {
+  &-enter-active {
+    animation: jxl-slide-down-enter var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-enter);
+  }
+
+  &-leave-active {
+    animation: jxl-slide-down-leave var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-leave);
+  }
+}
+
+.jxl-slide-left {
+  &-enter-active {
+    animation: jxl-slide-left-enter var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-enter);
+  }
+
+  &-leave-active {
+    animation: jxl-slide-left-leave var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-leave);
+  }
+}
+
+.jxl-slide-right {
+  &-enter-active {
+    animation: jxl-slide-right-enter var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-enter);
+  }
+
+  &-leave-active {
+    animation: jxl-slide-right-leave var(--jxl-animation-duration-base) both
+      var(--jxl-animation-timing-function-leave);
+  }
+}
