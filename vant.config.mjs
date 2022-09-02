@@ -6,7 +6,7 @@ export default {
       preprocessor: 'sass',
     },
     site: {
-      publicPath: '/jxlust-ui/',
+      publicPath: 'site-dist',
     },
     packageManager: 'pnpm',
   },

@@ -11,6 +11,7 @@ specifiers:
   stylelint: ^14.11.0
   typescript: ^4.7.4
   vue: ^3.0.0
+  vue-router: ^4.1.5
 
 devDependencies:
   '@types/node': 18.7.11
@@ -23,6 +24,7 @@ devDependencies:
   stylelint: 14.11.0
   typescript: 4.7.4
   vue: 3.2.37
+  vue-router: 4.1.5_vue@3.2.37
 
 packages:
 
@@ -1422,7 +1424,7 @@ packages:
       vite: 2.9.15_less@4.1.3+sass@1.54.5
       vite-plugin-html: 2.1.2_vite@2.9.15
       vite-plugin-md: 0.11.9_vite@2.9.15
-      vue-router: 4.1.4_vue@3.2.37
+      vue-router: 4.1.5_vue@3.2.37
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/markdown-it'
@@ -8105,8 +8107,8 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router/4.1.4_vue@3.2.37:
-    resolution: {integrity: sha512-UgYen33gOtwT3cOG1+yRen+Brk9py8CSlC9LEa3UjvKZ4EAoSo8NjZPDeDnmNerfazorHIJG1NC7qdi1SuQJnQ==}
+  /vue-router/4.1.5_vue@3.2.37:
+    resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:

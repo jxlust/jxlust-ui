@@ -3,8 +3,17 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:jxlust/JxlVueTpl.git"
+    "url": "git+ssh://git@github.com:jxlust/jxlust-ui.git"
   },
+  "keywords": [
+    "Vite",
+    "Vue3",
+    "TypeScript"
+  ],
+  "engines": {
+    "node": "^12 || >=14"
+  },
+  "homepage": "https://jxlust.github.io/jxlust-ui",
   "description": "",
   "main": "lib/jxlust-ui.js",
   "module": "es/index.js",
@@ -46,7 +55,8 @@
     "sass": "^1.49.7",
     "stylelint": "^14.11.0",
     "typescript": "^4.7.4",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "^4.1.5"
   },
   "pnpm": {
     "peerDependencyRules": {
