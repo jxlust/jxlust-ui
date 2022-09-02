@@ -1,14 +1,18 @@
 export default {
   name: 'jxlust-ui',
   build: {
+    srcDir: 'src',
+    namedExport: true,
+    skipInstall: ['lazyload'],
+    packageManager: 'pnpm',
     css: {
       base: 'style/base.scss',
       preprocessor: 'sass',
     },
     site: {
-      publicPath: 'site-dist',
+      //site 页面的里面的公共目录配置
+      publicPath: '',
     },
-    packageManager: 'pnpm',
   },
   site: {
     title: 'jxlust-ui',
