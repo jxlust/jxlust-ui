@@ -3,8 +3,8 @@ name: Deploy V3 site
 on:
   push:
     branches: [ "main" ]
-    # paths:
-    #   - 'docs/**'
+    paths:
+      - 'docs/**'
   # pull_request:
   #   branches: [ "main" ]
 

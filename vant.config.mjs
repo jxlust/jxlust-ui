@@ -11,7 +11,7 @@ export default {
     },
     site: {
       //site 页面的里面的公共目录配置
-      publicPath: '',
+      publicPath: 'jxlust-ui',
     },
   },
   site: {
