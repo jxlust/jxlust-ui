@@ -16,7 +16,7 @@ export default {
   },
   site: {
     title: 'jxlust-ui',
-    logo: 'https://xxxxxx/assets/logo.png',
+    logo: 'https://fastly.jsdelivr.net/gh/jxlust/public-assets/images/logo.png',
     nav: [
       {
         title: '开发指南',

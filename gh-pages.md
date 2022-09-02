@@ -29,3 +29,8 @@ GitHub Pages 关联 gh-pages 分支
 # GitHub workflow
 
 可以参考我的另一个项目 jxlvuetpl 里面的配置
+
+## img
+
+https://fastly.jsdelivr.net/gh/jxlust/public-assets@v0.1/images/logo.png
+https://fastly.jsdelivr.net/npm/@vant/assets/logo.png
