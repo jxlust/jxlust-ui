@@ -38,5 +38,6 @@ packages:
 - refactor
 - breaking change
 - Merge branch 'foo' into 'bar'
+- test
 
 > 参考:
