@@ -1,1 +1,0 @@
-import{_ as e}from"./iframe-router.2048eb0d.js";import{o as r,a as t}from"./vue-libs.cca4001e.js";const c={};function o(s,n){return r(),t("div",null,"test css style")}var f=e(c,[["render",o]]);export{f as default};
