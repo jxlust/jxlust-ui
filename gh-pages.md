@@ -33,4 +33,4 @@ GitHub Pages 关联 gh-pages 分支
 ## img
 
 https://fastly.jsdelivr.net/gh/jxlust/public-assets@v0.1/images/logo.png
-https://fastly.jsdelivr.net/npm/@vant/assets/logo.png
+https://fastly.jsdelivr.net/npm/@jxlust/assets/logo.png
