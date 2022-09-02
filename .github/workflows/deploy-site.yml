@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'docs/**'
+      - 'docs/**' #指定docs里面修改了才触发workflows action
   # pull_request:
   #   branches: [ "main" ]
 
