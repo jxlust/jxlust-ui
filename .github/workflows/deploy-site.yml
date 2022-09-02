@@ -1,0 +1,42 @@
+name: Deploy V3 site
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'docs/**'
+  # pull_request:
+  #   branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+    
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2.2.2
+      with:
+        version: 7.2.1
+
+    - name: Install and Build
+      run: |
+        pnpm install
+        pnpm build:site
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.JXLUST_TOKEN }} # 指定密钥
+        BRANCH: gh-pages # 指定推送到的远程分支
+        FOLDER: site-dist # 指定构建之后的产物要推送哪个目录的代码
