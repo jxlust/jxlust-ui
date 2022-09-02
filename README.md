@@ -24,4 +24,19 @@ packages:
   },
 ```
 
+## git commit
+
+- fix
+- feat
+- docs
+- perf
+- test
+- types
+- build
+- chore
+- release
+- refactor
+- breaking change
+- Merge branch 'foo' into 'bar'
+
 > 参考:
