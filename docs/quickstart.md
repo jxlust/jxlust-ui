@@ -4,11 +4,11 @@
 
 ```bash
 # 通过 npm
-npm i test
+npm i jxlust-ui
 
 # 通过 yarn
-yarn add test
+yarn add jxlust-ui
 
 # 通过 pnpm
-pnpm add test
+pnpm add jxlust-ui
 ```
