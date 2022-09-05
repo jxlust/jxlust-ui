@@ -6,7 +6,7 @@
 .jxl-trigger-input {
   outline: none;
   cursor: text;
-  height: var(--jxl-trigger-input-height);
+  min-height: var(--jxl-trigger-input-height);
   width: 100%;
   border: 1px solid skyblue;
   &[contenteditable='true']:empty:before {
@@ -14,4 +14,14 @@
     display: block;
     color: #ccc;
   }
+}
+
+.jxl-trigger-input__menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  color: #333;
 }

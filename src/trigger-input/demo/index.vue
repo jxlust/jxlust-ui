@@ -1,8 +1,13 @@
 <template>
   <div class="test-block">
     <div>
-      <p>test1:</p>
-      <TriggerInput></TriggerInput>
+      <p>test1 input @@ to trigger:</p>
+      <TriggerInput placeholder="enter" trigger="@@"></TriggerInput>
+    </div>
+
+    <div>
+      <p>test2 input auto to trigger:</p>
+      <TriggerInput placeholder="enter"></TriggerInput>
     </div>
   </div>
 </template>
