@@ -7,4 +7,11 @@ such as:
 - png
 - jpg
 - svg
-  ...
+
+## use cdn
+
+links such as:
+
+```links
+https://fastly.jsdelivr.net/npm/@jxlust/assets/logo.png
+```
